@@ -1,0 +1,92 @@
+/* General page container */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f6f8;
+  color: #333;
+}
+
+/* Center the form containers */
+.container {
+  max-width: 400px;
+  margin: 80px auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Form inputs */
+form div {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+input:focus {
+  border-color: #3498db;
+  box-shadow: 0px 0px 5px rgba(52, 152, 219, 0.3);
+}
+
+/* Buttons */
+button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+button:disabled {
+  background: #bdc3c7;
+  cursor: not-allowed;
+}
+
+/* Error message */
+p {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Dashboard welcome */
+.dashboard {
+  max-width: 500px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.dashboard p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
